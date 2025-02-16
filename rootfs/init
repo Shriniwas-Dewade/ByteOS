@@ -1,9 +1,0 @@
-#!/bin/sh
-mount -t proc none /proc
-mount -t sysfs none /sys
-mount -t devtmpfs none /dev
-
-echo "Welcome to ByteOS!"
-/bin/bash
-exec /sbin/init
-
